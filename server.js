@@ -8,6 +8,10 @@ app.use('/' , (req,res) => {
 })
 
 
+
+console.log("testing")
+
+
 app.listen(3500 , () => {
     console.log("Listening to port 3500")
 })
